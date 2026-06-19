@@ -1,0 +1,14 @@
+! wB97X-D4 def2-TZVP RIJCOSX def2/J defgrid3 MOREAD SP LargePrint
+
+%maxcore 4092
+
+%scf
+   MaxIter 0
+   Convergence VeryTight
+   CNVSOSCF true
+end
+
+%pal
+   nprocs 3
+end
+

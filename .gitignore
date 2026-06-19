@@ -1,0 +1,6 @@
+calculations/
+data_analysis/
+doped_molecules/
+double_doped_molecules/
+stress_test_molecules/
+__pycache__

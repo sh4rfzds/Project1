@@ -1,0 +1,21 @@
+! r2SCAN-3C Opt
+
+%maxcore 4092
+
+%scf
+   MaxIter 200
+   Convergence Tight
+   CNVSOSCF true
+end
+
+%geom
+   Convergence Tight
+end   
+
+%pal
+   nprocs 3
+end
+
+
+
+

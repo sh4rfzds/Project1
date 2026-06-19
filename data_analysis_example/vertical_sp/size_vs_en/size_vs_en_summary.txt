@@ -1,0 +1,142 @@
+=========================================================================================================
+                                  Size vs Intercept Calibration Summary                                  
+=========================================================================================================
+
+--- Global Error Metrics ---
+[Size N Global] MAE: 0.0073 eV | RMSE: 0.0108 eV
+[Size B Global] MAE: 0.0098 eV | RMSE: 0.0123 eV
+
+--- Leave-One-Out Cross Validation ---
+B  | H-1  | Left out: AsymPAH2   | Pred:   0.0491 | Act:   0.0740 | Err:   0.0249
+B  | H-1  | Left out: AsymPAH3   | Pred:   0.0489 | Act:   0.0490 | Err:   0.0001
+B  | H-1  | Left out: BenPer     | Pred:   0.0553 | Act:   0.0840 | Err:   0.0287
+B  | H-1  | Left out: CirCor     | Pred:   0.0553 | Act:   0.0330 | Err:  -0.0223
+B  | H-1  | Left out: CirOv      | Pred:   0.0527 | Act:   0.0360 | Err:  -0.0167
+B  | H-1  | Left out: Cor        | Pred:   0.0850 | Act:   0.0440 | Err:  -0.0410
+B  | H-1  | Left out: RibPAH     | Pred:   0.0512 | Act:   0.0750 | Err:   0.0238
+B  | H    | Left out: AsymPAH2   | Pred:   0.0351 | Act:   0.0400 | Err:   0.0049
+B  | H    | Left out: AsymPAH3   | Pred:   0.0304 | Act:   0.0290 | Err:  -0.0014
+B  | H    | Left out: BenPer     | Pred:   0.0614 | Act:   0.0600 | Err:  -0.0014
+B  | H    | Left out: CirCor     | Pred:   0.0307 | Act:   0.0400 | Err:   0.0093
+B  | H    | Left out: CirOv      | Pred:   0.0272 | Act:   0.0340 | Err:   0.0068
+B  | H    | Left out: Cor        | Pred:   0.0530 | Act:   0.0620 | Err:   0.0090
+B  | H    | Left out: RibPAH     | Pred:   0.0416 | Act:   0.0180 | Err:  -0.0236
+B  | L    | Left out: AsymPAH2   | Pred:   0.0281 | Act:   0.0390 | Err:   0.0109
+B  | L    | Left out: AsymPAH3   | Pred:   0.0453 | Act:   0.0320 | Err:  -0.0133
+B  | L    | Left out: CirOv      | Pred:   0.0345 | Act:   0.0460 | Err:   0.0115
+B  | L    | Left out: RibPAH     | Pred:   0.0373 | Act:   0.0250 | Err:  -0.0123
+N  | H-1  | Left out: AsymPAH2   | Pred:  -0.1049 | Act:  -0.1040 | Err:   0.0009
+N  | H-1  | Left out: AsymPAH3   | Pred:  -0.0846 | Act:  -0.0810 | Err:   0.0036
+N  | H-1  | Left out: BenPer     | Pred:  -0.2010 | Act:  -0.1880 | Err:   0.0130
+N  | H-1  | Left out: CirCor     | Pred:  -0.0895 | Act:  -0.1050 | Err:  -0.0155
+N  | H-1  | Left out: CirOv      | Pred:  -0.0777 | Act:  -0.0860 | Err:  -0.0083
+N  | H-1  | Left out: Cor        | Pred:  -0.1711 | Act:  -0.1920 | Err:  -0.0209
+N  | H-1  | Left out: RibPAH     | Pred:  -0.1163 | Act:  -0.0910 | Err:   0.0253
+N  | H    | Left out: AsymPAH2   | Pred:  -0.1094 | Act:  -0.1070 | Err:   0.0024
+N  | H    | Left out: AsymPAH3   | Pred:  -0.0901 | Act:  -0.0800 | Err:   0.0101
+N  | H    | Left out: BenPer     | Pred:  -0.1981 | Act:  -0.2010 | Err:  -0.0029
+N  | H    | Left out: CirCor     | Pred:  -0.0964 | Act:  -0.0980 | Err:  -0.0016
+N  | H    | Left out: CirOv      | Pred:  -0.0812 | Act:  -0.0910 | Err:  -0.0098
+N  | H    | Left out: Cor        | Pred:  -0.1861 | Act:  -0.1840 | Err:   0.0021
+N  | H    | Left out: RibPAH     | Pred:  -0.1168 | Act:  -0.1180 | Err:  -0.0012
+N  | L    | Left out: AsymPAH2   | Pred:  -0.0984 | Act:  -0.1080 | Err:  -0.0096
+N  | L    | Left out: AsymPAH3   | Pred:  -0.0848 | Act:  -0.0800 | Err:   0.0048
+N  | L    | Left out: BenPer     | Pred:  -0.1630 | Act:  -0.1740 | Err:  -0.0110
+N  | L    | Left out: CirCor     | Pred:  -0.0905 | Act:  -0.0910 | Err:  -0.0005
+N  | L    | Left out: CirOv      | Pred:  -0.0773 | Act:  -0.0900 | Err:  -0.0127
+N  | L    | Left out: Cor        | Pred:  -0.1594 | Act:  -0.1560 | Err:   0.0034
+N  | L    | Left out: RibPAH     | Pred:  -0.1090 | Act:  -0.0890 | Err:   0.0200
+N  | L+1  | Left out: AsymPAH2   | Pred:  -0.1105 | Act:  -0.1090 | Err:   0.0015
+N  | L+1  | Left out: AsymPAH3   | Pred:  -0.0997 | Act:  -0.0820 | Err:   0.0177
+N  | L+1  | Left out: BenPer     | Pred:  -0.1821 | Act:  -0.1670 | Err:   0.0151
+N  | L+1  | Left out: CirCor     | Pred:  -0.1023 | Act:  -0.0990 | Err:   0.0033
+N  | L+1  | Left out: CirOv      | Pred:  -0.0966 | Act:  -0.0820 | Err:   0.0146
+N  | L+1  | Left out: Cor        | Pred:  -0.1661 | Act:  -0.1600 | Err:   0.0061
+N  | L+1  | Left out: RibPAH     | Pred:  -0.1092 | Act:  -0.1540 | Err:  -0.0448
+
+--- Linear Regression Models ---
+Dopant     | Orb   | R2 Score   | p-value    | MAE      | RMSE     | Equation
+-----------------------------------------------------------------------------
+B          | H-1   | R2: 0.2040 | p: 3.09e-01 | 0.0155   | 0.0172   | y = 0.759x + 0.037
+B          | H     | R2: 0.6526 | p: 2.79e-02 | 0.0062   | 0.0087   | y = 1.041x + 0.013
+B          | L     | R2: 0.3874 | p: 3.78e-01 | 0.0060   | 0.0061   | y = -1.332x + 0.061
+N          | H-1   | R2: 0.9386 | p: 3.24e-04 | 0.0088   | 0.0110   | y = -3.756x + -0.023
+N          | H     | R2: 0.9912 | p: 2.45e-06 | 0.0031   | 0.0041   | y = -3.823x + -0.026
+N          | L     | R2: 0.9419 | p: 2.82e-04 | 0.0065   | 0.0083   | y = -2.913x + -0.037
+N          | L+1   | R2: 0.7838 | p: 8.04e-03 | 0.0109   | 0.0161   | y = -2.677x + -0.052
+
+--- Raw Data ---
+
+[B] - H-1
+Molecule             | N_C   | 1/N_C (x)    | Intercept (y)
+-----------------------------------------------------------
+AsymPAH2             | 46    | 0.021739     | 0.074000    
+AsymPAH3             | 62    | 0.016129     | 0.049000    
+BenPer               | 22    | 0.045455     | 0.084000    
+CirCor               | 54    | 0.018519     | 0.033000    
+CirOv                | 66    | 0.015152     | 0.036000    
+Cor                  | 24    | 0.041667     | 0.044000    
+RibPAH               | 42    | 0.023810     | 0.075000    
+
+[B] - H
+Molecule             | N_C   | 1/N_C (x)    | Intercept (y)
+-----------------------------------------------------------
+AsymPAH2             | 46    | 0.021739     | 0.040000    
+AsymPAH3             | 62    | 0.016129     | 0.029000    
+BenPer               | 22    | 0.045455     | 0.060000    
+CirCor               | 54    | 0.018519     | 0.040000    
+CirOv                | 66    | 0.015152     | 0.034000    
+Cor                  | 24    | 0.041667     | 0.062000    
+RibPAH               | 42    | 0.023810     | 0.018000    
+
+[B] - L
+Molecule             | N_C   | 1/N_C (x)    | Intercept (y)
+-----------------------------------------------------------
+AsymPAH2             | 46    | 0.021739     | 0.039000    
+AsymPAH3             | 62    | 0.016129     | 0.032000    
+CirOv                | 66    | 0.015152     | 0.046000    
+RibPAH               | 42    | 0.023810     | 0.025000    
+
+[N] - H-1
+Molecule             | N_C   | 1/N_C (x)    | Intercept (y)
+-----------------------------------------------------------
+AsymPAH2             | 46    | 0.021739     | -0.104000   
+AsymPAH3             | 62    | 0.016129     | -0.081000   
+BenPer               | 22    | 0.045455     | -0.188000   
+CirCor               | 54    | 0.018519     | -0.105000   
+CirOv                | 66    | 0.015152     | -0.086000   
+Cor                  | 24    | 0.041667     | -0.192000   
+RibPAH               | 42    | 0.023810     | -0.091000   
+
+[N] - H
+Molecule             | N_C   | 1/N_C (x)    | Intercept (y)
+-----------------------------------------------------------
+AsymPAH2             | 46    | 0.021739     | -0.107000   
+AsymPAH3             | 62    | 0.016129     | -0.080000   
+BenPer               | 22    | 0.045455     | -0.201000   
+CirCor               | 54    | 0.018519     | -0.098000   
+CirOv                | 66    | 0.015152     | -0.091000   
+Cor                  | 24    | 0.041667     | -0.184000   
+RibPAH               | 42    | 0.023810     | -0.118000   
+
+[N] - L
+Molecule             | N_C   | 1/N_C (x)    | Intercept (y)
+-----------------------------------------------------------
+AsymPAH2             | 46    | 0.021739     | -0.108000   
+AsymPAH3             | 62    | 0.016129     | -0.080000   
+BenPer               | 22    | 0.045455     | -0.174000   
+CirCor               | 54    | 0.018519     | -0.091000   
+CirOv                | 66    | 0.015152     | -0.090000   
+Cor                  | 24    | 0.041667     | -0.156000   
+RibPAH               | 42    | 0.023810     | -0.089000   
+
+[N] - L+1
+Molecule             | N_C   | 1/N_C (x)    | Intercept (y)
+-----------------------------------------------------------
+AsymPAH2             | 46    | 0.021739     | -0.109000   
+AsymPAH3             | 62    | 0.016129     | -0.082000   
+BenPer               | 22    | 0.045455     | -0.167000   
+CirCor               | 54    | 0.018519     | -0.099000   
+CirOv                | 66    | 0.015152     | -0.082000   
+Cor                  | 24    | 0.041667     | -0.160000   
+RibPAH               | 42    | 0.023810     | -0.154000   

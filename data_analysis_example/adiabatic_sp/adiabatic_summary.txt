@@ -1,0 +1,797 @@
+=========================================================================================================
+                                       Adiabatic Analysis Summary                                        
+=========================================================================================================
+
+--- Global Structural Relaxation (RMSD) ---
+[Nitrogen Doping Global] Average RMSD: 0.0578 Å
+[Boron Doping Global] Average RMSD: 0.1740 Å
+
+--- Global Parity Error Metrics ---
+[Nitrogen Doping Global] MAE: 0.0252 eV | RMSE: 0.0355 eV
+[Boron Doping Global] MAE: 0.0414 eV | RMSE: 0.0545 eV
+
+--- Leave-One-Out Cross Validation (Parity) ---
+[Nitrogen - H-1] Averaged LOOCV Parity MAE: 0.0212 eV | Averaged RMSE: 0.0280 eV
+[Nitrogen - H] Averaged LOOCV Parity MAE: 0.0198 eV | Averaged RMSE: 0.0266 eV
+[Nitrogen - L] Averaged LOOCV Parity MAE: 0.0284 eV | Averaged RMSE: 0.0441 eV
+[Nitrogen - L+1] Averaged LOOCV Parity MAE: 0.0317 eV | Averaged RMSE: 0.0401 eV
+[Boron - H-1] Averaged LOOCV Parity MAE: 0.0341 eV | Averaged RMSE: 0.0423 eV
+[Boron - H] Averaged LOOCV Parity MAE: 0.0452 eV | Averaged RMSE: 0.0607 eV
+[Boron - L] Averaged LOOCV Parity MAE: 0.0459 eV | Averaged RMSE: 0.0597 eV
+
+El | Orb  | Left out             | Pred Eq (Size Adapted)    | Test MAE   | Test RMSE
+-------------------------------------------------------------------------------------
+N  | H-1  | Left out: AsymPAH2   | y = -4.058x + -0.105      |   0.0166   |   0.0225
+N  | H-1  | Left out: AsymPAH3   | y = -4.045x + -0.085      |   0.0176   |   0.0215
+N  | H-1  | Left out: BenPer     | y = -4.154x + -0.201      |   0.0408   |   0.0479
+N  | H-1  | Left out: CirCor     | y = -3.995x + -0.089      |   0.0199   |   0.0237
+N  | H-1  | Left out: CirOv      | y = -3.937x + -0.078      |   0.0120   |   0.0173
+N  | H-1  | Left out: Cor        | y = -4.028x + -0.171      |   0.0336   |   0.0403
+N  | H-1  | Left out: RibPAH     | y = -3.812x + -0.116      |   0.0163   |   0.0192
+N  | H    | Left out: AsymPAH2   | y = -3.788x + -0.109      |   0.0218   |   0.0272
+N  | H    | Left out: AsymPAH3   | y = -3.744x + -0.090      |   0.0256   |   0.0339
+N  | H    | Left out: BenPer     | y = -3.940x + -0.198      |   0.0256   |   0.0321
+N  | H    | Left out: CirCor     | y = -3.681x + -0.096      |   0.0102   |   0.0171
+N  | H    | Left out: CirOv      | y = -3.694x + -0.081      |   0.0206   |   0.0243
+N  | H    | Left out: Cor        | y = -3.795x + -0.186      |   0.0129   |   0.0143
+N  | H    | Left out: RibPAH     | y = -3.734x + -0.117      |   0.0124   |   0.0166
+N  | L    | Left out: AsymPAH2   | y = -3.170x + -0.098      |   0.0192   |   0.0256
+N  | L    | Left out: AsymPAH3   | y = -3.096x + -0.085      |   0.0207   |   0.0263
+N  | L    | Left out: BenPer     | y = -3.283x + -0.163      |   0.0824   |   0.0980
+N  | L    | Left out: CirCor     | y = -3.127x + -0.090      |   0.0116   |   0.0124
+N  | L    | Left out: CirOv      | y = -3.179x + -0.077      |   0.0101   |   0.0114
+N  | L    | Left out: Cor        | y = -3.195x + -0.159      |   0.0441   |   0.0545
+N  | L    | Left out: RibPAH     | y = -3.084x + -0.109      |   0.0272   |   0.0388
+N  | L+1  | Left out: AsymPAH2   | y = -2.602x + -0.111      |   0.0310   |   0.0371
+N  | L+1  | Left out: AsymPAH3   | y = -2.529x + -0.100      |   0.0297   |   0.0335
+N  | L+1  | Left out: BenPer     | y = -2.640x + -0.182      |   0.0587   |   0.0674
+N  | L+1  | Left out: CirCor     | y = -2.504x + -0.102      |   0.0079   |   0.0093
+N  | L+1  | Left out: CirOv      | y = -2.474x + -0.097      |   0.0159   |   0.0169
+N  | L+1  | Left out: Cor        | y = -2.619x + -0.166      |   0.0482   |   0.0533
+N  | L+1  | Left out: RibPAH     | y = -2.798x + -0.109      |   0.0374   |   0.0442
+B  | H-1  | Left out: AsymPAH2   | y = 5.622x + 0.049        |   0.0206   |   0.0224
+B  | H-1  | Left out: AsymPAH3   | y = 5.540x + 0.049        |   0.0270   |   0.0336
+B  | H-1  | Left out: BenPer     | y = 5.449x + 0.055        |   0.0453   |   0.0560
+B  | H-1  | Left out: CirCor     | y = 5.370x + 0.055        |   0.0491   |   0.0517
+B  | H-1  | Left out: CirOv      | y = 5.359x + 0.053        |   0.0345   |   0.0404
+B  | H-1  | Left out: Cor        | y = 5.419x + 0.085        |   0.0581   |   0.0654
+B  | H-1  | Left out: RibPAH     | y = 5.737x + 0.051        |   0.0185   |   0.0285
+B  | H    | Left out: AsymPAH2   | y = 5.932x + 0.035        |   0.0468   |   0.0494
+B  | H    | Left out: AsymPAH3   | y = 5.922x + 0.030        |   0.0419   |   0.0469
+B  | H    | Left out: BenPer     | y = 5.902x + 0.061        |   0.0535   |   0.0549
+B  | H    | Left out: CirCor     | y = 5.919x + 0.031        |   0.0232   |   0.0281
+B  | H    | Left out: CirOv      | y = 6.044x + 0.027        |   0.0278   |   0.0324
+B  | H    | Left out: Cor        | y = 5.990x + 0.053        |   0.0474   |   0.0566
+B  | H    | Left out: RibPAH     | y = 5.926x + 0.042        |   0.0770   |   0.1213
+B  | L    | Left out: AsymPAH2   | y = 4.534x + 0.028        |   0.0555   |   0.0782
+B  | L    | Left out: AsymPAH3   | y = 4.210x + 0.045        |   0.0413   |   0.0499
+B  | L    | Left out: CirOv      | y = 4.860x + 0.034        |   0.0436   |   0.0456
+B  | L    | Left out: RibPAH     | y = 4.114x + 0.037        |   0.0410   |   0.0499
+
+--- Detailed LOOCV Parity Data Points ---
+
+[H-1]
+Base_Mol        | Combo_Mol            | El | Pred_dE_norm    | Act_dE_norm     | Error_norm
+--------------------------------------------------------------------------------------------
+AsymPAH2        | AsymPAH2_P2B         | B  | 0.294457        | 0.315750        | 0.021293  
+AsymPAH2        | AsymPAH2_P2N         | N  | -0.282013       | -0.282450       | -0.000437 
+AsymPAH2        | AsymPAH2_P3B         | B  | 0.138497        | 0.123200        | -0.015297 
+AsymPAH2        | AsymPAH2_P3N         | N  | -0.169435       | -0.127100       | 0.042335  
+AsymPAH2        | AsymPAH2_P4B         | B  | 0.079163        | 0.046550        | -0.032613 
+AsymPAH2        | AsymPAH2_P4N         | N  | -0.126606       | -0.133700       | -0.007094 
+AsymPAH2        | AsymPAH2_P5B         | B  | 0.129365        | 0.139800        | 0.010435  
+AsymPAH2        | AsymPAH2_P5N         | N  | -0.162843       | -0.153250       | 0.009593  
+AsymPAH2        | AsymPAH2_P6B         | B  | 0.108815        | 0.118850        | 0.010035  
+AsymPAH2        | AsymPAH2_P6N         | N  | -0.148009       | -0.145150       | 0.002859  
+AsymPAH2        | AsymPAH2_P7B         | B  | 0.058527        | 0.035950        | -0.022577 
+AsymPAH2        | AsymPAH2_P7N         | N  | -0.111710       | -0.128750       | -0.017040 
+AsymPAH2        | AsymPAH2_P8B         | B  | 0.148457        | 0.180600        | 0.032143  
+AsymPAH2        | AsymPAH2_P8N         | N  | -0.176624       | -0.189850       | -0.013226 
+AsymPAH2        | AsymPAH2_P9N         | N  | -0.115406       | -0.075000       | 0.040406  
+AsymPAH3        | AsymPAH3_P10B        | B  | 0.098492        | 0.082500        | -0.015992 
+AsymPAH3        | AsymPAH3_P10N        | N  | -0.120809       | -0.101350       | 0.019459  
+AsymPAH3        | AsymPAH3_P11N        | N  | -0.084584       | -0.045500       | 0.039084  
+AsymPAH3        | AsymPAH3_P2B         | B  | 0.249343        | 0.269700        | 0.020357  
+AsymPAH3        | AsymPAH3_P2N         | N  | -0.230964       | -0.226600       | 0.004364  
+AsymPAH3        | AsymPAH3_P3B         | B  | 0.231177        | 0.220500        | -0.010677 
+AsymPAH3        | AsymPAH3_P3N         | N  | -0.217699       | -0.189250       | 0.028449  
+AsymPAH3        | AsymPAH3_P4B         | B  | 0.091631        | 0.025650        | -0.065981 
+AsymPAH3        | AsymPAH3_P4N         | N  | -0.115798       | -0.080350       | 0.035448  
+AsymPAH3        | AsymPAH3_P5B         | B  | 0.072788        | 0.026900        | -0.045888 
+AsymPAH3        | AsymPAH3_P5N         | N  | -0.102039       | -0.103700       | -0.001661 
+AsymPAH3        | AsymPAH3_P6B         | B  | 0.133111        | 0.128300        | -0.004811 
+AsymPAH3        | AsymPAH3_P6N         | N  | -0.146089       | -0.141650       | 0.004439  
+AsymPAH3        | AsymPAH3_P7B         | B  | 0.127390        | 0.139050        | 0.011660  
+AsymPAH3        | AsymPAH3_P7N         | N  | -0.141911       | -0.154450       | -0.012539 
+AsymPAH3        | AsymPAH3_P8B         | B  | 0.052941        | 0.003950        | -0.048991 
+AsymPAH3        | AsymPAH3_P8N         | N  | -0.087546       | -0.102800       | -0.015254 
+AsymPAH3        | AsymPAH3_P9B         | B  | 0.141836        | 0.160700        | 0.018864  
+AsymPAH3        | AsymPAH3_P9N         | N  | -0.152460       | -0.167750       | -0.015290 
+BenPer          | BenPer_P2B           | B  | 0.175100        | 0.187100        | 0.012000  
+BenPer          | BenPer_P2N           | N  | -0.292374       | -0.212250       | 0.080124  
+BenPer          | BenPer_P3B           | B  | 0.057286        | 0.009250        | -0.048036 
+BenPer          | BenPer_P3N           | N  | -0.202559       | -0.180000       | 0.022559  
+BenPer          | BenPer_P4B           | B  | 0.056840        | -0.007200       | -0.064040 
+BenPer          | BenPer_P4N           | N  | -0.202219       | -0.167300       | 0.034919  
+BenPer          | BenPer_P5B           | B  | 0.198168        | 0.293300        | 0.095132  
+BenPer          | BenPer_P5N           | N  | -0.309960       | -0.319400       | -0.009440 
+BenPer          | BenPer_P6B           | B  | 0.155657        | 0.148200        | -0.007457 
+BenPer          | BenPer_P6N           | N  | -0.277552       | -0.220600       | 0.056952  
+CirCor          | CirCor_P1B           | B  | 0.070771        | 0.001775        | -0.068996 
+CirCor          | CirCor_P1N           | N  | -0.100996       | -0.124225       | -0.023229 
+CirCor          | CirCor_P2B           | B  | 0.108632        | 0.074250        | -0.034382 
+CirCor          | CirCor_P2N           | N  | -0.129162       | -0.142575       | -0.013413 
+CirCor          | CirCor_P3B           | B  | 0.082528        | 0.018525        | -0.064003 
+CirCor          | CirCor_P3N           | N  | -0.109742       | -0.121525       | -0.011783 
+CirCor          | CirCor_P4B           | B  | 0.135692        | 0.108475        | -0.027217 
+CirCor          | CirCor_P4N           | N  | -0.149292       | -0.156850       | -0.007558 
+CirCor          | CirCor_P5B           | B  | 0.260328        | 0.311000        | 0.050672  
+CirCor          | CirCor_P5N           | N  | -0.242012       | -0.285650       | -0.043638 
+CirOv           | CirOv_P1B            | B  | 0.122717        | 0.127825        | 0.005108  
+CirOv           | CirOv_P2B            | B  | 0.181790        | 0.198275        | 0.016485  
+CirOv           | CirOv_P2N            | N  | -0.172580       | -0.205425       | -0.032845 
+CirOv           | CirOv_P3B            | B  | 0.085343        | 0.048075        | -0.037268 
+CirOv           | CirOv_P3N            | N  | -0.101726       | -0.098675       | 0.003051  
+CirOv           | CirOv_P4B            | B  | 0.053657        | -0.002300       | -0.055957 
+CirOv           | CirOv_P4N            | N  | -0.078448       | -0.088350       | -0.009902 
+CirOv           | CirOv_P5B            | B  | 0.052992        | -0.004700       | -0.057692 
+CirOv           | CirOv_P5N            | N  | -0.077959       | -0.080000       | -0.002041 
+Cor             | Cor_P1B              | B  | 0.140421        | 0.088350        | -0.052071 
+Cor             | Cor_P1N              | N  | -0.212264       | -0.242575       | -0.030311 
+Cor             | Cor_P2B              | B  | 0.149988        | 0.052475        | -0.097513 
+Cor             | Cor_P2N              | N  | -0.219375       | -0.227500       | -0.008125 
+Cor             | Cor_P3B              | B  | 0.314643        | 0.289925        | -0.024718 
+Cor             | Cor_P3N              | N  | -0.341769       | -0.404200       | -0.062431 
+RibPAH          | RibPAH_P1B           | B  | 0.140069        | 0.140725        | 0.000656  
+RibPAH          | RibPAH_P1N           | N  | -0.175321       | -0.158200       | 0.017121  
+RibPAH          | RibPAH_P2N           | N  | -0.138873       | -0.108000       | 0.030873  
+RibPAH          | RibPAH_P3B           | B  | 0.116832        | 0.110800        | -0.006032 
+RibPAH          | RibPAH_P3N           | N  | -0.159885       | -0.174675       | -0.014790 
+RibPAH          | RibPAH_P4N           | N  | -0.175577       | -0.177950       | -0.002373 
+RibPAH          | RibPAH_P5B           | B  | 0.224996        | 0.176050        | -0.048946 
+
+[H]
+Base_Mol        | Combo_Mol            | El | Pred_dE_norm    | Act_dE_norm     | Error_norm
+--------------------------------------------------------------------------------------------
+AsymPAH2        | AsymPAH2_P2B         | B  | 0.124770        | 0.082000        | -0.042770 
+AsymPAH2        | AsymPAH2_P2N         | N  | -0.166668       | -0.156950       | 0.009718  
+AsymPAH2        | AsymPAH2_P3B         | B  | 0.057208        | -0.004900       | -0.062108 
+AsymPAH2        | AsymPAH2_P3N         | N  | -0.123520       | -0.109300       | 0.014220  
+AsymPAH2        | AsymPAH2_P4B         | B  | 0.085748        | 0.037900        | -0.047848 
+AsymPAH2        | AsymPAH2_P4N         | N  | -0.141747       | -0.111400       | 0.030347  
+AsymPAH2        | AsymPAH2_P5B         | B  | 0.232692        | 0.247850        | 0.015158  
+AsymPAH2        | AsymPAH2_P5N         | N  | -0.235591       | -0.242450       | -0.006859 
+AsymPAH2        | AsymPAH2_P6B         | B  | 0.206770        | 0.263500        | 0.056730  
+AsymPAH2        | AsymPAH2_P6N         | N  | -0.219037       | -0.251250       | -0.032213 
+AsymPAH2        | AsymPAH2_P7B         | B  | 0.037578        | -0.026800       | -0.064378 
+AsymPAH2        | AsymPAH2_P7N         | N  | -0.110983       | -0.126000       | -0.015017 
+AsymPAH2        | AsymPAH2_P8B         | B  | 0.211260        | 0.250050        | 0.038790  
+AsymPAH2        | AsymPAH2_P8N         | N  | -0.221904       | -0.229750       | -0.007846 
+AsymPAH2        | AsymPAH2_P9N         | N  | -0.210959       | -0.153150       | 0.057809  
+AsymPAH3        | AsymPAH3_P10B        | B  | 0.249965        | 0.256900        | 0.006935  
+AsymPAH3        | AsymPAH3_P10N        | N  | -0.228898       | -0.208750       | 0.020148  
+AsymPAH3        | AsymPAH3_P11N        | N  | -0.160861       | -0.081900       | 0.078961  
+AsymPAH3        | AsymPAH3_P2B         | B  | 0.109286        | 0.064650        | -0.044636 
+AsymPAH3        | AsymPAH3_P2N         | N  | -0.139952       | -0.130350       | 0.009602  
+AsymPAH3        | AsymPAH3_P3B         | B  | 0.075141        | 0.016100        | -0.059041 
+AsymPAH3        | AsymPAH3_P3N         | N  | -0.118363       | -0.089550       | 0.028813  
+AsymPAH3        | AsymPAH3_P4B         | B  | 0.038377        | -0.007000       | -0.045377 
+AsymPAH3        | AsymPAH3_P4N         | N  | -0.095119       | -0.082850       | 0.012269  
+AsymPAH3        | AsymPAH3_P5B         | B  | 0.048984        | -0.006650       | -0.055634 
+AsymPAH3        | AsymPAH3_P5N         | N  | -0.101825       | -0.075400       | 0.026425  
+AsymPAH3        | AsymPAH3_P6B         | B  | 0.144692        | 0.150300        | 0.005608  
+AsymPAH3        | AsymPAH3_P6N         | N  | -0.162338       | -0.159450       | 0.002888  
+AsymPAH3        | AsymPAH3_P7B         | B  | 0.188686        | 0.253150        | 0.064464  
+AsymPAH3        | AsymPAH3_P7N         | N  | -0.190153       | -0.242950       | -0.052797 
+AsymPAH3        | AsymPAH3_P8B         | B  | 0.030485        | -0.031500       | -0.061985 
+AsymPAH3        | AsymPAH3_P8N         | N  | -0.090129       | -0.103650       | -0.013521 
+AsymPAH3        | AsymPAH3_P9B         | B  | 0.175173        | 0.208350        | 0.033177  
+AsymPAH3        | AsymPAH3_P9N         | N  | -0.181610       | -0.192550       | -0.010940 
+BenPer          | BenPer_P1B           | B  | 0.127334        | 0.054550        | -0.072784 
+BenPer          | BenPer_P2B           | B  | 0.164411        | 0.119900        | -0.044511 
+BenPer          | BenPer_P2N           | N  | -0.266883       | -0.241350       | 0.025533  
+BenPer          | BenPer_P3B           | B  | 0.296311        | 0.332450        | 0.036139  
+BenPer          | BenPer_P3N           | N  | -0.354931       | -0.319450       | 0.035481  
+BenPer          | BenPer_P4B           | B  | 0.332639        | 0.389050        | 0.056411  
+BenPer          | BenPer_P4N           | N  | -0.379181       | -0.370500       | 0.008681  
+BenPer          | BenPer_P5B           | B  | 0.084824        | 0.020150        | -0.064674 
+BenPer          | BenPer_P5N           | N  | -0.213757       | -0.211650       | 0.002107  
+BenPer          | BenPer_P6B           | B  | 0.278377        | 0.324800        | 0.046423  
+BenPer          | BenPer_P6N           | N  | -0.342960       | -0.286850       | 0.056110  
+CirCor          | CirCor_P1B           | B  | 0.104069        | 0.109025        | 0.004956  
+CirCor          | CirCor_P1N           | N  | -0.142031       | -0.140875       | 0.001156  
+CirCor          | CirCor_P2B           | B  | 0.200950        | 0.230675        | 0.029725  
+CirCor          | CirCor_P2N           | N  | -0.202279       | -0.239300       | -0.037021 
+CirCor          | CirCor_P3B           | B  | 0.091159        | 0.087300        | -0.003859 
+CirCor          | CirCor_P3N           | N  | -0.134003       | -0.134375       | -0.000372 
+CirCor          | CirCor_P4B           | B  | 0.032542        | -0.005125       | -0.037667 
+CirCor          | CirCor_P4N           | N  | -0.097550       | -0.101975       | -0.004425 
+CirCor          | CirCor_P5B           | B  | 0.033727        | -0.006300       | -0.040027 
+CirCor          | CirCor_P5N           | N  | -0.098287       | -0.090250       | 0.008037  
+CirOv           | CirOv_P1B            | B  | 0.046824        | -0.005550       | -0.052374 
+CirOv           | CirOv_P1N            | N  | -0.093136       | -0.119100       | -0.025964 
+CirOv           | CirOv_P2B            | B  | 0.077206        | 0.062150        | -0.015056 
+CirOv           | CirOv_P2N            | N  | -0.111708       | -0.124625       | -0.012917 
+CirOv           | CirOv_P3B            | B  | 0.046712        | 0.012600        | -0.034112 
+CirOv           | CirOv_P3N            | N  | -0.093068       | -0.102575       | -0.009507 
+CirOv           | CirOv_P4B            | B  | 0.078282        | 0.045025        | -0.033257 
+CirOv           | CirOv_P4N            | N  | -0.112366       | -0.101225       | 0.011141  
+CirOv           | CirOv_P5B            | B  | 0.229942        | 0.225975        | -0.003967 
+CirOv           | CirOv_P5N            | N  | -0.205073       | -0.248675       | -0.043602 
+Cor             | Cor_P1B              | B  | 0.249689        | 0.306900        | 0.057211  
+Cor             | Cor_P1N              | N  | -0.310667       | -0.306425       | 0.004242  
+Cor             | Cor_P2B              | B  | 0.239185        | 0.233750        | -0.005435 
+Cor             | Cor_P2N              | N  | -0.304012       | -0.320075       | -0.016063 
+Cor             | Cor_P3B              | B  | 0.057112        | -0.022400       | -0.079512 
+Cor             | Cor_P3N              | N  | -0.188665       | -0.170350       | 0.018315  
+RibPAH          | RibPAH_P1B           | B  | 0.114317        | -0.143175       | -0.257492 
+RibPAH          | RibPAH_P1N           | N  | -0.162590       | -0.163325       | -0.000735 
+RibPAH          | RibPAH_P2B           | B  | 0.212678        | 0.207625        | -0.005053 
+RibPAH          | RibPAH_P2N           | N  | -0.224569       | -0.232125       | -0.007556 
+RibPAH          | RibPAH_P3B           | B  | 0.053160        | -0.025050       | -0.078210 
+RibPAH          | RibPAH_P3N           | N  | -0.124053       | -0.131125       | -0.007072 
+RibPAH          | RibPAH_P4B           | B  | 0.170103        | 0.140500        | -0.029603 
+RibPAH          | RibPAH_P4N           | N  | -0.197742       | -0.211800       | -0.014058 
+RibPAH          | RibPAH_P5B           | B  | 0.296460        | 0.281800        | -0.014660 
+RibPAH          | RibPAH_P5N           | N  | -0.277361       | -0.310050       | -0.032689 
+
+[L]
+Base_Mol        | Combo_Mol            | El | Pred_dE_norm    | Act_dE_norm     | Error_norm
+--------------------------------------------------------------------------------------------
+AsymPAH2        | AsymPAH2_P2B         | B  | 0.113402        | 0.084150        | -0.029252 
+AsymPAH2        | AsymPAH2_P2N         | N  | -0.158029       | -0.127850       | 0.030179  
+AsymPAH2        | AsymPAH2_P3B         | B  | 0.047530        | 0.015700        | -0.031830 
+AsymPAH2        | AsymPAH2_P3N         | N  | -0.111980       | -0.110100       | 0.001880  
+AsymPAH2        | AsymPAH2_P4B         | B  | 0.071701        | 0.018100        | -0.053601 
+AsymPAH2        | AsymPAH2_P4N         | N  | -0.128877       | -0.114850       | 0.014027  
+AsymPAH2        | AsymPAH2_P5B         | B  | 0.199581        | 0.176050        | -0.023531 
+AsymPAH2        | AsymPAH2_P5N         | N  | -0.218274       | -0.208150       | 0.010124  
+AsymPAH2        | AsymPAH2_P6B         | B  | 0.196263        | 0.212350        | 0.016087  
+AsymPAH2        | AsymPAH2_P6N         | N  | -0.215954       | -0.225500       | -0.009546 
+AsymPAH2        | AsymPAH2_P7B         | B  | 0.029763        | -0.045650       | -0.075413 
+AsymPAH2        | AsymPAH2_P7N         | N  | -0.099560       | -0.113950       | -0.014390 
+AsymPAH2        | AsymPAH2_P8B         | B  | 0.187767        | 0.209350        | 0.021583  
+AsymPAH2        | AsymPAH2_P8N         | N  | -0.210015       | -0.196550       | 0.013465  
+AsymPAH2        | AsymPAH2_P9B         | B  | 0.199530        | 0.392500        | 0.192970  
+AsymPAH2        | AsymPAH2_P9N         | N  | -0.218238       | -0.158600       | 0.059638  
+AsymPAH3        | AsymPAH3_P10B        | B  | 0.217917        | 0.214100        | -0.003817 
+AsymPAH3        | AsymPAH3_P10N        | N  | -0.211765       | -0.187050       | 0.024715  
+AsymPAH3        | AsymPAH3_P11B        | B  | 0.154340        | 0.232550        | 0.078210  
+AsymPAH3        | AsymPAH3_P11N        | N  | -0.165022       | -0.105950       | 0.059072  
+AsymPAH3        | AsymPAH3_P2B         | B  | 0.110704        | 0.083550        | -0.027154 
+AsymPAH3        | AsymPAH3_P2N         | N  | -0.132940       | -0.097750       | 0.035190  
+AsymPAH3        | AsymPAH3_P3B         | B  | 0.079154        | 0.044450        | -0.034704 
+AsymPAH3        | AsymPAH3_P3N         | N  | -0.109744       | -0.088700       | 0.021044  
+AsymPAH3        | AsymPAH3_P4B         | B  | 0.051501        | 0.014200        | -0.037301 
+AsymPAH3        | AsymPAH3_P4N         | N  | -0.089412       | -0.086000       | 0.003412  
+AsymPAH3        | AsymPAH3_P5B         | B  | 0.059677        | 0.002500        | -0.057177 
+AsymPAH3        | AsymPAH3_P5N         | N  | -0.095423       | -0.079000       | 0.016423  
+AsymPAH3        | AsymPAH3_P6B         | B  | 0.133344        | 0.109900        | -0.023444 
+AsymPAH3        | AsymPAH3_P6N         | N  | -0.149585       | -0.152250       | -0.002665 
+AsymPAH3        | AsymPAH3_P7B         | B  | 0.178156        | 0.240800        | 0.062644  
+AsymPAH3        | AsymPAH3_P7N         | N  | -0.182532       | -0.209000       | -0.026468 
+AsymPAH3        | AsymPAH3_P8B         | B  | 0.045297        | -0.042550       | -0.087847 
+AsymPAH3        | AsymPAH3_P8N         | N  | -0.084852       | -0.095700       | -0.010848 
+AsymPAH3        | AsymPAH3_P9B         | B  | 0.164581        | 0.165150        | 0.000569  
+AsymPAH3        | AsymPAH3_P9N         | N  | -0.172551       | -0.165200       | 0.007351  
+BenPer          | BenPer_P2N           | N  | -0.267642       | -0.203450       | 0.064192  
+BenPer          | BenPer_P3N           | N  | -0.365871       | -0.272350       | 0.093521  
+BenPer          | BenPer_P4N           | N  | -0.404984       | -0.324500       | 0.080484  
+BenPer          | BenPer_P5N           | N  | -0.173391       | -0.168600       | 0.004791  
+BenPer          | BenPer_P6N           | N  | -0.397014       | -0.227800       | 0.169214  
+CirCor          | CirCor_P2N           | N  | -0.220673       | -0.201675       | 0.018998  
+CirCor          | CirCor_P3N           | N  | -0.136983       | -0.127200       | 0.009783  
+CirCor          | CirCor_P4N           | N  | -0.091169       | -0.098850       | -0.007681 
+CirCor          | CirCor_P5N           | N  | -0.090941       | -0.080950       | 0.009991  
+CirOv           | CirOv_P1N            | N  | -0.091451       | -0.099275       | -0.007824 
+CirOv           | CirOv_P2B            | B  | 0.088880        | 0.053775        | -0.035105 
+CirOv           | CirOv_P2N            | N  | -0.112893       | -0.111175       | 0.001718  
+CirOv           | CirOv_P3B            | B  | 0.056337        | 0.023325        | -0.033012 
+CirOv           | CirOv_P3N            | N  | -0.091607       | -0.107250       | -0.015643 
+CirOv           | CirOv_P4B            | B  | 0.086911        | 0.024350        | -0.062561 
+CirOv           | CirOv_P4N            | N  | -0.111605       | -0.102400       | 0.009205  
+CirOv           | CirOv_P5N            | N  | -0.210061       | -0.193975       | 0.016086  
+Cor             | Cor_P1N              | N  | -0.352348       | -0.313650       | 0.038698  
+Cor             | Cor_P2N              | N  | -0.335898       | -0.250200       | 0.085698  
+Cor             | Cor_P3N              | N  | -0.161360       | -0.153600       | 0.007760  
+RibPAH          | RibPAH_P1B           | B  | 0.092617        | 0.103050        | 0.010433  
+RibPAH          | RibPAH_P1N           | N  | -0.150396       | -0.073325       | 0.077071  
+RibPAH          | RibPAH_P2B           | B  | 0.174365        | 0.252775        | 0.078410  
+RibPAH          | RibPAH_P2N           | N  | -0.211679       | -0.176375       | 0.035304  
+RibPAH          | RibPAH_P3B           | B  | 0.042127        | -0.029800       | -0.071927 
+RibPAH          | RibPAH_P3N           | N  | -0.112546       | -0.113825       | -0.001279 
+RibPAH          | RibPAH_P4B           | B  | 0.135460        | 0.151600        | 0.016140  
+RibPAH          | RibPAH_P4N           | N  | -0.182514       | -0.178700       | 0.003814  
+RibPAH          | RibPAH_P5B           | B  | 0.224401        | 0.252250        | 0.027849  
+RibPAH          | RibPAH_P5N           | N  | -0.249189       | -0.230900       | 0.018289  
+
+[L+1]
+Base_Mol        | Combo_Mol            | El | Pred_dE_norm    | Act_dE_norm     | Error_norm
+--------------------------------------------------------------------------------------------
+AsymPAH2        | AsymPAH2_P2N         | N  | -0.292584       | -0.225700       | 0.066884  
+AsymPAH2        | AsymPAH2_P3N         | N  | -0.178710       | -0.132550       | 0.046160  
+AsymPAH2        | AsymPAH2_P4N         | N  | -0.129745       | -0.134100       | -0.004355 
+AsymPAH2        | AsymPAH2_P5N         | N  | -0.158790       | -0.134250       | 0.024540  
+AsymPAH2        | AsymPAH2_P6N         | N  | -0.145828       | -0.124150       | 0.021678  
+AsymPAH2        | AsymPAH2_P7N         | N  | -0.127583       | -0.124650       | 0.002933  
+AsymPAH2        | AsymPAH2_P8N         | N  | -0.199307       | -0.154050       | 0.045257  
+AsymPAH2        | AsymPAH2_P9N         | N  | -0.117410       | -0.081550       | 0.035860  
+AsymPAH3        | AsymPAH3_P10N        | N  | -0.128211       | -0.097600       | 0.030611  
+AsymPAH3        | AsymPAH3_P11N        | N  | -0.100056       | -0.055150       | 0.044906  
+AsymPAH3        | AsymPAH3_P2N         | N  | -0.237755       | -0.197350       | 0.040405  
+AsymPAH3        | AsymPAH3_P3N         | N  | -0.219018       | -0.163850       | 0.055168  
+AsymPAH3        | AsymPAH3_P4N         | N  | -0.128712       | -0.083300       | 0.045412  
+AsymPAH3        | AsymPAH3_P5N         | N  | -0.115772       | -0.108050       | 0.007722  
+AsymPAH3        | AsymPAH3_P6N         | N  | -0.150778       | -0.129250       | 0.021528  
+AsymPAH3        | AsymPAH3_P7N         | N  | -0.146854       | -0.129650       | 0.017204  
+AsymPAH3        | AsymPAH3_P8N         | N  | -0.104149       | -0.095650       | 0.008499  
+AsymPAH3        | AsymPAH3_P9N         | N  | -0.163266       | -0.138200       | 0.025066  
+BenPer          | BenPer_P2N           | N  | -0.256914       | -0.180800       | 0.076114  
+BenPer          | BenPer_P3N           | N  | -0.182449       | -0.175500       | 0.006949  
+BenPer          | BenPer_P4N           | N  | -0.183017       | -0.145300       | 0.037717  
+BenPer          | BenPer_P5N           | N  | -0.360080       | -0.290600       | 0.069480  
+BenPer          | BenPer_P6N           | N  | -0.267594       | -0.164600       | 0.102994  
+CirCor          | CirCor_P1N           | N  | -0.112483       | -0.108150       | 0.004333  
+CirCor          | CirCor_P2N           | N  | -0.137404       | -0.121900       | 0.015504  
+CirCor          | CirCor_P3N           | N  | -0.120386       | -0.117725       | 0.002661  
+CirCor          | CirCor_P4N           | N  | -0.157037       | -0.144875       | 0.012162  
+CirCor          | CirCor_P5N           | N  | -0.241223       | -0.236450       | 0.004773  
+CirOv           | CirOv_P2N            | N  | -0.185544       | -0.172750       | 0.012794  
+CirOv           | CirOv_P3N            | N  | -0.117787       | -0.096975       | 0.020812  
+CirOv           | CirOv_P4N            | N  | -0.097163       | -0.089175       | 0.007988  
+CirOv           | CirOv_P5N            | N  | -0.096758       | -0.074700       | 0.022058  
+Cor             | Cor_P1N              | N  | -0.210853       | -0.186225       | 0.024628  
+Cor             | Cor_P2N              | N  | -0.224407       | -0.183475       | 0.040932  
+Cor             | Cor_P3N              | N  | -0.367424       | -0.288450       | 0.078974  
+RibPAH          | RibPAH_P1N           | N  | -0.209255       | -0.167900       | 0.041355  
+RibPAH          | RibPAH_P3N           | N  | -0.158158       | -0.164300       | -0.006142 
+RibPAH          | RibPAH_P4N           | N  | -0.175192       | -0.144825       | 0.030367  
+RibPAH          | RibPAH_P5N           | N  | -0.221878       | -0.150200       | 0.071678  
+
+--- Detailed Adiabatic Relaxation Data Points (RMSD vs dE_relax) ---
+
+[N] AsymPAH2 - H-1   (Avg RMSD: 0.055223 Å | Avg dE_relax: 0.002888 eV | Avg Abs dE_relax: 0.017638 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH2_P2N              | 0.059715        | -0.029500    | -8.1655    | -8.1950    | 0.9755
+AsymPAH2_P3N              | 0.046072        | 0.018900     | -7.9032    | -7.8843    | 0.9822
+AsymPAH2_P4N              | 0.042425        | 0.013700     | -7.9112    | -7.8975    | 0.9973
+AsymPAH2_P5N              | 0.061424        | 0.015000     | -7.9516    | -7.9366    | 0.9879
+AsymPAH2_P6N              | 0.049429        | 0.019200     | -7.9396    | -7.9204    | 0.9928
+AsymPAH2_P7N              | 0.028704        | 0.014700     | -7.9023    | -7.8876    | 0.9990
+AsymPAH2_P8N              | 0.054746        | -0.029500    | -7.9803    | -8.0098    | 0.9934
+AsymPAH2_P9N              | 0.099269        | 0.000600     | -7.7807    | -7.7801    | 0.9976
+
+[N] AsymPAH2 - H   (Avg RMSD: 0.055223 Å | Avg dE_relax: 0.001275 eV | Avg Abs dE_relax: 0.011425 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH2_P2N              | 0.059715        | -0.008500    | -6.4017    | -6.4102    | 0.9942
+AsymPAH2_P3N              | 0.046072        | 0.007500     | -6.3224    | -6.3149    | 0.9982
+AsymPAH2_P4N              | 0.042425        | 0.016000     | -6.3351    | -6.3191    | 0.9952
+AsymPAH2_P5N              | 0.061424        | -0.012200    | -6.5690    | -6.5812    | 0.9869
+AsymPAH2_P6N              | 0.049429        | -0.009600    | -6.5892    | -6.5988    | 0.9890
+AsymPAH2_P7N              | 0.028704        | 0.022300     | -6.3706    | -6.3483    | 1.0000
+AsymPAH2_P8N              | 0.054746        | -0.010300    | -6.5455    | -6.5558    | 0.9915
+AsymPAH2_P9N              | 0.099269        | 0.005000     | -6.4076    | -6.4026    | 0.9898
+
+[N] AsymPAH2 - L   (Avg RMSD: 0.055223 Å | Avg dE_relax: 0.042937 eV | Avg Abs dE_relax: 0.042937 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH2_P2N              | 0.059715        | 0.022100     | -1.9281    | -1.9060    | 0.9950
+AsymPAH2_P3N              | 0.046072        | 0.016600     | -1.8871    | -1.8705    | 0.9979
+AsymPAH2_P4N              | 0.042425        | 0.046700     | -1.9267    | -1.8800    | 0.9923
+AsymPAH2_P5N              | 0.061424        | 0.063700     | -2.1303    | -2.0666    | 0.9870
+AsymPAH2_P6N              | 0.049429        | 0.051500     | -2.1528    | -2.1013    | 0.9894
+AsymPAH2_P7N              | 0.028704        | 0.021200     | -1.8994    | -1.8782    | 1.0000
+AsymPAH2_P8N              | 0.054746        | 0.052900     | -2.0963    | -2.0434    | 0.9904
+AsymPAH2_P9N              | 0.099269        | 0.068800     | -2.0363    | -1.9675    | 0.9842
+
+[N] AsymPAH2 - L+1   (Avg RMSD: 0.055223 Å | Avg dE_relax: 0.054175 eV | Avg Abs dE_relax: 0.054175 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH2_P2N              | 0.059715        | 0.130100     | -0.6599    | -0.5298    | 0.9760
+AsymPAH2_P3N              | 0.046072        | 0.104000     | -0.4475    | -0.3435    | 0.9672
+AsymPAH2_P4N              | 0.042425        | 0.022000     | -0.3686    | -0.3466    | 0.9935
+AsymPAH2_P5N              | 0.061424        | 0.054500     | -0.4014    | -0.3469    | 0.9780
+AsymPAH2_P6N              | 0.049429        | 0.054000     | -0.3807    | -0.3267    | 0.9829
+AsymPAH2_P7N              | 0.028704        | 0.027800     | -0.3555    | -0.3277    | 0.9863
+AsymPAH2_P8N              | 0.054746        | 0.040000     | -0.4265    | -0.3865    | 0.9927
+AsymPAH2_P9N              | 0.099269        | 0.001000     | -0.2425    | -0.2415    | 0.9961
+
+[N] AsymPAH3 - H-1   (Avg RMSD: 0.060542 Å | Avg dE_relax: 0.002700 eV | Avg Abs dE_relax: 0.009620 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH3_P2N              | 0.071993        | -0.017100    | -7.4235    | -7.4406    | 0.9818
+AsymPAH3_P3N              | 0.072376        | 0.000000     | -7.3659    | -7.3659    | 0.9781
+AsymPAH3_P4N              | 0.046958        | 0.018300     | -7.1664    | -7.1481    | 0.9938
+AsymPAH3_P5N              | 0.041906        | 0.013400     | -7.2082    | -7.1948    | 0.9979
+AsymPAH3_P6N              | 0.057496        | 0.009100     | -7.2798    | -7.2707    | 0.9908
+AsymPAH3_P7N              | 0.044646        | 0.003900     | -7.3002    | -7.2963    | 0.9928
+AsymPAH3_P8N              | 0.024979        | 0.014700     | -7.2077    | -7.1930    | 0.9997
+AsymPAH3_P9N              | 0.046790        | -0.017500    | -7.3054    | -7.3229    | 0.9935
+AsymPAH3_P10N             | 0.078486        | 0.001400     | -7.1915    | -7.1901    | 0.9937
+AsymPAH3_P11N             | 0.119791        | 0.000800     | -7.0792    | -7.0784    | 0.9998
+
+[N] AsymPAH3 - H   (Avg RMSD: 0.060542 Å | Avg dE_relax: 0.007220 eV | Avg Abs dE_relax: 0.012940 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH3_P2N              | 0.071993        | -0.003900    | -5.9083    | -5.9122    | 0.9938
+AsymPAH3_P3N              | 0.072376        | 0.008700     | -5.8393    | -5.8306    | 0.9959
+AsymPAH3_P4N              | 0.046958        | 0.004200     | -5.8214    | -5.8172    | 0.9992
+AsymPAH3_P5N              | 0.041906        | 0.013300     | -5.8156    | -5.8023    | 0.9983
+AsymPAH3_P6N              | 0.057496        | 0.003100     | -5.9735    | -5.9704    | 0.9895
+AsymPAH3_P7N              | 0.044646        | -0.024700    | -6.1127    | -6.1374    | 0.9910
+AsymPAH3_P8N              | 0.024979        | 0.020700     | -5.8795    | -5.8588    | 1.0000
+AsymPAH3_P9N              | 0.046790        | 0.009800     | -6.0464    | -6.0366    | 0.9918
+AsymPAH3_P10N             | 0.078486        | 0.011400     | -6.0804    | -6.0690    | 0.9866
+AsymPAH3_P11N             | 0.119791        | 0.029600     | -5.8449    | -5.8153    | 0.9918
+
+[N] AsymPAH3 - L   (Avg RMSD: 0.060542 Å | Avg dE_relax: 0.033110 eV | Avg Abs dE_relax: 0.033110 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH3_P2N              | 0.071993        | 0.019500     | -2.3849    | -2.3654    | 0.9955
+AsymPAH3_P3N              | 0.072376        | 0.008000     | -2.3553    | -2.3473    | 0.9962
+AsymPAH3_P4N              | 0.046958        | 0.005500     | -2.3474    | -2.3419    | 0.9991
+AsymPAH3_P5N              | 0.041906        | 0.023200     | -2.3511    | -2.3279    | 0.9975
+AsymPAH3_P6N              | 0.057496        | 0.032500     | -2.5069    | -2.4744    | 0.9890
+AsymPAH3_P7N              | 0.044646        | 0.027800     | -2.6157    | -2.5879    | 0.9911
+AsymPAH3_P8N              | 0.024979        | 0.018800     | -2.3801    | -2.3613    | 1.0000
+AsymPAH3_P9N              | 0.046790        | 0.054800     | -2.5551    | -2.5003    | 0.9915
+AsymPAH3_P10N             | 0.078486        | 0.075100     | -2.6191    | -2.5440    | 0.9865
+AsymPAH3_P11N             | 0.119791        | 0.065900     | -2.4477    | -2.3818    | 0.9849
+
+[N] AsymPAH3 - L+1   (Avg RMSD: 0.060542 Å | Avg dE_relax: 0.042910 eV | Avg Abs dE_relax: 0.045390 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH3_P2N              | 0.071993        | 0.103300     | -1.2773    | -1.1740    | 0.9832
+AsymPAH3_P3N              | 0.072376        | 0.096500     | -1.2035    | -1.1070    | 0.9825
+AsymPAH3_P4N              | 0.046958        | 0.060400     | -1.0063    | -0.9459    | 0.9879
+AsymPAH3_P5N              | 0.041906        | 0.024300     | -1.0197    | -0.9954    | 0.9957
+AsymPAH3_P6N              | 0.057496        | 0.045400     | -1.0832    | -1.0378    | 0.9885
+AsymPAH3_P7N              | 0.044646        | 0.042000     | -1.0806    | -1.0386    | 0.9912
+AsymPAH3_P8N              | 0.024979        | 0.015700     | -0.9863    | -0.9706    | 0.9990
+AsymPAH3_P9N              | 0.046790        | 0.035000     | -1.0907    | -1.0557    | 0.9935
+AsymPAH3_P10N             | 0.078486        | 0.018900     | -0.9934    | -0.9745    | 0.9942
+AsymPAH3_P11N             | 0.119791        | -0.012400    | -0.8772    | -0.8896    | 0.9998
+
+[N] BenPer - H-1   (Avg RMSD: 0.058851 Å | Avg dE_relax: 0.013040 eV | Avg Abs dE_relax: 0.033800 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+BenPer_P2N                | 0.059040        | 0.034100     | -8.6896    | -8.6555    | 0.9841
+BenPer_P3N                | 0.052658        | 0.036600     | -8.6276    | -8.5910    | 1.0000
+BenPer_P4N                | 0.056863        | 0.046400     | -8.6120    | -8.5656    | 1.0000
+BenPer_P5N                | 0.041536        | -0.044000    | -8.8258    | -8.8698    | 0.9874
+BenPer_P6N                | 0.084157        | -0.007900    | -8.6643    | -8.6722    | 0.9951
+
+[N] BenPer - H   (Avg RMSD: 0.058851 Å | Avg dE_relax: -0.017420 eV | Avg Abs dE_relax: 0.027100 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+BenPer_P2N                | 0.059040        | -0.006400    | -7.9138    | -7.9202    | 0.9931
+BenPer_P3N                | 0.052658        | -0.034800    | -8.0416    | -8.0764    | 0.9801
+BenPer_P4N                | 0.056863        | -0.039500    | -8.1390    | -8.1785    | 0.9805
+BenPer_P5N                | 0.041536        | 0.024200     | -7.8850    | -7.8608    | 0.9985
+BenPer_P6N                | 0.084157        | -0.030600    | -7.9806    | -8.0112    | 0.9878
+
+[N] BenPer - L   (Avg RMSD: 0.058851 Å | Avg dE_relax: 0.094760 eV | Avg Abs dE_relax: 0.094760 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+BenPer_P2N                | 0.059040        | 0.061000     | -0.6688    | -0.6078    | 0.9909
+BenPer_P3N                | 0.052658        | 0.145900     | -0.8915    | -0.7456    | 0.9760
+BenPer_P4N                | 0.056863        | 0.116900     | -0.9668    | -0.8499    | 0.9802
+BenPer_P5N                | 0.041536        | 0.036400     | -0.5745    | -0.5381    | 0.9976
+BenPer_P6N                | 0.084157        | 0.113600     | -0.7701    | -0.6565    | 0.9829
+
+[N] BenPer - L+1   (Avg RMSD: 0.058851 Å | Avg dE_relax: 0.071600 eV | Avg Abs dE_relax: 0.071600 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+BenPer_P2N                | 0.059040        | 0.143400     | 0.1137     | 0.2571     | 0.9622
+BenPer_P3N                | 0.052658        | 0.010200     | 0.2575     | 0.2677     | 0.9999
+BenPer_P4N                | 0.056863        | 0.033700     | 0.2944     | 0.3281     | 0.9992
+BenPer_P5N                | 0.041536        | 0.084900     | -0.0474    | 0.0375     | 0.9824
+BenPer_P6N                | 0.084157        | 0.085800     | 0.2037     | 0.2895     | 0.9931
+
+[N] CirCor - H-1   (Avg RMSD: 0.047304 Å | Avg dE_relax: -0.003960 eV | Avg Abs dE_relax: 0.019600 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirCor_P1N                | 0.043114        | 0.025300     | -7.3401    | -7.3148    | 0.9838
+CirCor_P2N                | 0.052251        | -0.015900    | -7.3723    | -7.3882    | 0.9863
+CirCor_P3N                | 0.044781        | 0.005600     | -7.3096    | -7.3040    | 0.9889
+CirCor_P4N                | 0.053413        | 0.008200     | -7.4535    | -7.4453    | 0.9842
+CirCor_P5N                | 0.042962        | -0.043000    | -7.3462    | -7.3892    | 0.9820
+
+[N] CirCor - H   (Avg RMSD: 0.047304 Å | Avg dE_relax: 0.000320 eV | Avg Abs dE_relax: 0.030200 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirCor_P1N                | 0.043114        | 0.025100     | -7.4056    | -7.3805    | 0.9009
+CirCor_P2N                | 0.052251        | -0.074700    | -7.6995    | -7.7742    | 0.9801
+CirCor_P3N                | 0.044781        | 0.024500     | -7.3790    | -7.3545    | 0.9835
+CirCor_P4N                | 0.053413        | 0.020900     | -7.2458    | -7.2249    | 0.9966
+CirCor_P5N                | 0.042962        | 0.005800     | -7.0033    | -6.9975    | 0.9931
+
+[N] CirCor - L   (Avg RMSD: 0.048352 Å | Avg dE_relax: 0.046200 eV | Avg Abs dE_relax: 0.049700 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirCor_P2N                | 0.052251        | 0.100500     | -1.8256    | -1.7251    | 0.9828
+CirCor_P3N                | 0.044781        | 0.091300     | -1.5185    | -1.4272    | 0.9851
+CirCor_P4N                | 0.053413        | -0.003000    | -1.3108    | -1.3138    | 1.0000
+CirCor_P5N                | 0.042962        | -0.004000    | -1.0763    | -1.0803    | 0.9983
+
+[N] CirCor - L+1   (Avg RMSD: 0.047304 Å | Avg dE_relax: 0.055180 eV | Avg Abs dE_relax: 0.055180 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirCor_P1N                | 0.043114        | 0.033300     | -1.3834    | -1.3501    | 0.9402
+CirCor_P2N                | 0.052251        | 0.025300     | -1.4304    | -1.4051    | 0.9901
+CirCor_P3N                | 0.044781        | 0.028900     | -1.4173    | -1.3884    | 0.9932
+CirCor_P4N                | 0.053413        | 0.117400     | -1.6144    | -1.4970    | 0.9867
+CirCor_P5N                | 0.042962        | 0.071000     | -1.4614    | -1.3904    | 0.9859
+
+[N] CirOv - H-1   (Avg RMSD: 0.053117 Å | Avg dE_relax: 0.001775 eV | Avg Abs dE_relax: 0.029875 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirOv_P2N                 | 0.051885        | -0.056200    | -7.7418    | -7.7980    | 0.9873
+CirOv_P3N                 | 0.042834        | 0.032000     | -7.4030    | -7.3710    | 0.9929
+CirOv_P4N                 | 0.047497        | 0.020200     | -7.3499    | -7.3297    | 1.0000
+CirOv_P5N                 | 0.070251        | 0.011100     | -7.3074    | -7.2963    | 0.9994
+
+[N] CirOv - H   (Avg RMSD: 0.050800 Å | Avg dE_relax: -0.003580 eV | Avg Abs dE_relax: 0.023780 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirOv_P1N                 | 0.041530        | 0.011500     | -6.7862    | -6.7747    | 0.9718
+CirOv_P2N                 | 0.051885        | -0.013300    | -6.7835    | -6.7968    | 0.9943
+CirOv_P3N                 | 0.042834        | 0.009900     | -6.7185    | -6.7086    | 0.9971
+CirOv_P4N                 | 0.047497        | 0.029100     | -6.7323    | -6.7032    | 0.9946
+CirOv_P5N                 | 0.070251        | -0.055100    | -7.2379    | -7.2930    | 0.9788
+
+[N] CirOv - L   (Avg RMSD: 0.050800 Å | Avg dE_relax: 0.046780 eV | Avg Abs dE_relax: 0.046780 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirOv_P1N                 | 0.041530        | 0.028200     | -1.9167    | -1.8885    | 0.9233
+CirOv_P2N                 | 0.051885        | 0.006900     | -1.9430    | -1.9361    | 0.9941
+CirOv_P3N                 | 0.042834        | 0.010400     | -1.9308    | -1.9204    | 0.9962
+CirOv_P4N                 | 0.047497        | 0.083700     | -1.9847    | -1.9010    | 0.9919
+CirOv_P5N                 | 0.070251        | 0.104700     | -2.3720    | -2.2673    | 0.9806
+
+[N] CirOv - L+1   (Avg RMSD: 0.053117 Å | Avg dE_relax: 0.040500 eV | Avg Abs dE_relax: 0.048750 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirOv_P2N                 | 0.051885        | 0.101100     | -1.5874    | -1.4863    | 0.9844
+CirOv_P3N                 | 0.042834        | 0.077400     | -1.2606    | -1.1832    | 0.9871
+CirOv_P4N                 | 0.047497        | -0.005800    | -1.1462    | -1.1520    | 1.0000
+CirOv_P5N                 | 0.070251        | -0.010700    | -1.0834    | -1.0941    | 0.9986
+
+[N] Cor - H-1   (Avg RMSD: 0.066260 Å | Avg dE_relax: -0.064600 eV | Avg Abs dE_relax: 0.070933 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+Cor_P1N                   | 0.059696        | 0.009500     | -8.6473    | -8.6378    | 1.0000
+Cor_P2N                   | 0.059079        | -0.014100    | -8.5634    | -8.5775    | 0.9857
+Cor_P3N                   | 0.080006        | -0.189200    | -9.0951    | -9.2843    | 0.9195
+
+[N] Cor - H   (Avg RMSD: 0.066260 Å | Avg dE_relax: -0.015467 eV | Avg Abs dE_relax: 0.056467 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+Cor_P1N                   | 0.059696        | -0.036700    | -8.8559    | -8.8926    | 0.9342
+Cor_P2N                   | 0.059079        | -0.071200    | -8.8760    | -8.9472    | 0.9777
+Cor_P3N                   | 0.080006        | 0.061500     | -8.4098    | -8.3483    | 1.0000
+
+[N] Cor - L   (Avg RMSD: 0.066260 Å | Avg dE_relax: 0.128200 eV | Avg Abs dE_relax: 0.128200 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+Cor_P1N                   | 0.059696        | 0.166100     | -1.3703    | -1.2042    | 0.9361
+Cor_P2N                   | 0.059079        | 0.195700     | -1.1461    | -0.9504    | 0.9791
+Cor_P3N                   | 0.080006        | 0.022800     | -0.5868    | -0.5640    | 0.9775
+
+[N] Cor - L+1   (Avg RMSD: 0.066260 Å | Avg dE_relax: 0.146467 eV | Avg Abs dE_relax: 0.146467 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+Cor_P1N                   | 0.059696        | 0.096900     | -0.7908    | -0.6939    | 0.9677
+Cor_P2N                   | 0.059079        | 0.091600     | -0.7745    | -0.6829    | 0.9891
+Cor_P3N                   | 0.080006        | 0.250900     | -1.3537    | -1.1028    | 0.9320
+
+[N] RibPAH - H-1   (Avg RMSD: 0.070469 Å | Avg dE_relax: 0.017000 eV | Avg Abs dE_relax: 0.017000 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+RibPAH_P1N                | 0.073471        | 0.013300     | -8.5588    | -8.5455    | 0.9874
+RibPAH_P2N                | 0.094838        | 0.017000     | -8.3617    | -8.3447    | 0.9941
+RibPAH_P3N                | 0.041202        | 0.034300     | -8.6457    | -8.6114    | 0.9947
+RibPAH_P4N                | 0.072365        | 0.003400     | -8.6279    | -8.6245    | 0.9899
+
+[N] RibPAH - H   (Avg RMSD: 0.067717 Å | Avg dE_relax: -0.021920 eV | Avg Abs dE_relax: 0.037560 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+RibPAH_P1N                | 0.073471        | -0.063400    | -6.2252    | -6.2886    | 0.9828
+RibPAH_P2N                | 0.094838        | -0.060700    | -6.5031    | -6.5638    | 0.9886
+RibPAH_P3N                | 0.041202        | 0.033100     | -6.1929    | -6.1598    | 1.0000
+RibPAH_P4N                | 0.072365        | 0.006000     | -6.4885    | -6.4825    | 0.9889
+RibPAH_P5N                | 0.056708        | -0.024600    | -6.2308    | -6.2554    | 0.9886
+
+[N] RibPAH - L   (Avg RMSD: 0.067717 Å | Avg dE_relax: 0.070580 eV | Avg Abs dE_relax: 0.070580 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+RibPAH_P1N                | 0.073471        | 0.049900     | -2.4016    | -2.3517    | 0.9917
+RibPAH_P2N                | 0.094838        | 0.047000     | -2.8109    | -2.7639    | 0.9868
+RibPAH_P3N                | 0.041202        | 0.041500     | -2.5552    | -2.5137    | 1.0000
+RibPAH_P4N                | 0.072365        | 0.124000     | -2.8972    | -2.7732    | 0.9894
+RibPAH_P5N                | 0.056708        | 0.090500     | -2.6107    | -2.5202    | 0.9886
+
+[N] RibPAH - L+1   (Avg RMSD: 0.060936 Å | Avg dE_relax: 0.080250 eV | Avg Abs dE_relax: 0.080250 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+RibPAH_P1N                | 0.073471        | 0.064900     | -0.6057    | -0.5408    | 0.9760
+RibPAH_P3N                | 0.041202        | 0.049900     | -0.5763    | -0.5264    | 0.9913
+RibPAH_P4N                | 0.072365        | 0.106400     | -0.5549    | -0.4485    | 0.9915
+RibPAH_P5N                | 0.056708        | 0.099800     | -0.2694    | -0.1696    | 0.9906
+
+[B] AsymPAH2 - H-1   (Avg RMSD: 0.155372 Å | Avg dE_relax: -0.024171 eV | Avg Abs dE_relax: 0.056600 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH2_P2B              | 0.253019        | 0.066100     | -7.0647    | -6.9986    | 0.9795
+AsymPAH2_P3B              | 0.159318        | -0.042900    | -7.3408    | -7.3837    | 0.9625
+AsymPAH2_P4B              | 0.146720        | -0.104900    | -7.4321    | -7.5370    | 0.9890
+AsymPAH2_P5B              | 0.215289        | -0.028500    | -7.3220    | -7.3505    | 0.9722
+AsymPAH2_P6B              | 0.100573        | -0.023500    | -7.3689    | -7.3924    | 0.9838
+AsymPAH2_P7B              | 0.082163        | -0.082900    | -7.4753    | -7.5582    | 0.9923
+AsymPAH2_P8B              | 0.130520        | 0.047400     | -7.3163    | -7.2689    | 0.9913
+
+[B] AsymPAH2 - H   (Avg RMSD: 0.155372 Å | Avg dE_relax: -0.044043 eV | Avg Abs dE_relax: 0.085386 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH2_P2B              | 0.253019        | -0.052300    | -5.8800    | -5.9323    | 0.9933
+AsymPAH2_P3B              | 0.159318        | -0.128900    | -5.9772    | -6.1061    | 0.9968
+AsymPAH2_P4B              | 0.146720        | -0.102300    | -5.9182    | -6.0205    | 0.9888
+AsymPAH2_P5B              | 0.215289        | 0.016300     | -5.6169    | -5.6006    | 0.9825
+AsymPAH2_P6B              | 0.100573        | 0.062800     | -5.6321    | -5.5693    | 0.9878
+AsymPAH2_P7B              | 0.082163        | -0.169500    | -5.9804    | -6.1499    | 1.0000
+AsymPAH2_P8B              | 0.130520        | 0.065600     | -5.6618    | -5.5962    | 0.9879
+
+[B] AsymPAH2 - L   (Avg RMSD: 0.226692 Å | Avg dE_relax: -0.002900 eV | Avg Abs dE_relax: 0.119575 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH2_P2B              | 0.253019        | -0.050000    | -1.4320    | -1.4820    | 0.9919
+AsymPAH2_P3B              | 0.159318        | -0.086300    | -1.5326    | -1.6189    | 0.9978
+AsymPAH2_P4B              | 0.146720        | -0.097800    | -1.5163    | -1.6141    | 0.9940
+AsymPAH2_P5B              | 0.215289        | -0.050200    | -1.2480    | -1.2982    | 0.9790
+AsymPAH2_P6B              | 0.100573        | -0.008900    | -1.2167    | -1.2256    | 0.9871
+AsymPAH2_P7B              | 0.082163        | -0.196700    | -1.5449    | -1.7416    | 1.0000
+AsymPAH2_P8B              | 0.130520        | 0.025600     | -1.2572    | -1.2316    | 0.9872
+AsymPAH2_P9B              | 0.725932        | 0.441100     | -1.3064    | -0.8653    | 0.9526
+
+[B] AsymPAH3 - H-1   (Avg RMSD: 0.145612 Å | Avg dE_relax: -0.023989 eV | Avg Abs dE_relax: 0.048922 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH3_P2B              | 0.310190        | 0.046500     | -6.4945    | -6.4480    | 0.9792
+AsymPAH3_P3B              | 0.241641        | 0.025000     | -6.5714    | -6.5464    | 0.9777
+AsymPAH3_P4B              | 0.102217        | -0.090900    | -6.8452    | -6.9361    | 0.9836
+AsymPAH3_P5B              | 0.103195        | -0.095500    | -6.8381    | -6.9336    | 0.9938
+AsymPAH3_P6B              | 0.120104        | -0.023900    | -6.7069    | -6.7308    | 0.9833
+AsymPAH3_P7B              | 0.090290        | 0.003900     | -6.7132    | -6.7093    | 0.9909
+AsymPAH3_P8B              | 0.059238        | -0.102000    | -6.8775    | -6.9795    | 0.9991
+AsymPAH3_P9B              | 0.095519        | 0.036800     | -6.7028    | -6.6660    | 0.9917
+AsymPAH3_P10B             | 0.188115        | -0.015800    | -6.8066    | -6.8224    | 0.9909
+
+[B] AsymPAH3 - H   (Avg RMSD: 0.145612 Å | Avg dE_relax: -0.036244 eV | Avg Abs dE_relax: 0.070467 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH3_P2B              | 0.310190        | -0.036900    | -5.4853    | -5.5222    | 0.9944
+AsymPAH3_P3B              | 0.241641        | -0.083300    | -5.5360    | -5.6193    | 0.9938
+AsymPAH3_P4B              | 0.102217        | -0.094100    | -5.5714    | -5.6655    | 0.9988
+AsymPAH3_P5B              | 0.103195        | -0.098900    | -5.5659    | -5.6648    | 0.9963
+AsymPAH3_P6B              | 0.120104        | -0.011600    | -5.3393    | -5.3509    | 0.9835
+AsymPAH3_P7B              | 0.090290        | 0.080200     | -5.2254    | -5.1452    | 0.9904
+AsymPAH3_P8B              | 0.059238        | -0.155400    | -5.5591    | -5.7145    | 1.0000
+AsymPAH3_P9B              | 0.095519        | 0.042200     | -5.2770    | -5.2348    | 0.9892
+AsymPAH3_P10B             | 0.188115        | 0.031600     | -5.1693    | -5.1377    | 0.9811
+
+[B] AsymPAH3 - L   (Avg RMSD: 0.219318 Å | Avg dE_relax: -0.028160 eV | Avg Abs dE_relax: 0.061160 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+AsymPAH3_P2B              | 0.310190        | -0.031600    | -1.9712    | -2.0028    | 0.9913
+AsymPAH3_P3B              | 0.241641        | -0.034100    | -2.0469    | -2.0810    | 0.9944
+AsymPAH3_P4B              | 0.102217        | -0.057200    | -2.0843    | -2.1415    | 0.9990
+AsymPAH3_P5B              | 0.103195        | -0.074300    | -2.0906    | -2.1649    | 0.9978
+AsymPAH3_P6B              | 0.120104        | -0.038400    | -1.9117    | -1.9501    | 0.9845
+AsymPAH3_P7B              | 0.090290        | 0.068100     | -1.7564    | -1.6883    | 0.9899
+AsymPAH3_P8B              | 0.059238        | -0.172100    | -2.0829    | -2.2550    | 1.0000
+AsymPAH3_P9B              | 0.095519        | -0.022500    | -1.8171    | -1.8396    | 0.9881
+AsymPAH3_P10B             | 0.188115        | -0.016400    | -1.7253    | -1.7417    | 0.9799
+AsymPAH3_P11B             | 0.882671        | 0.096900     | -1.8017    | -1.7048    | 0.9538
+
+[B] BenPer - H-1   (Avg RMSD: 0.135318 Å | Avg dE_relax: -0.072900 eV | Avg Abs dE_relax: 0.100020 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+BenPer_P2B                | 0.125765        | -0.052800    | -7.8040    | -7.8568    | 0.9571
+BenPer_P3B                | 0.108906        | -0.173200    | -8.0393    | -8.2125    | 0.9987
+BenPer_P4B                | 0.186278        | -0.187300    | -8.0581    | -8.2454    | 1.0000
+BenPer_P5B                | 0.106918        | 0.067800     | -7.7122    | -7.6444    | 0.9793
+BenPer_P6B                | 0.148722        | -0.019000    | -7.9156    | -7.9346    | 0.9926
+
+[B] BenPer - H   (Avg RMSD: 0.139246 Å | Avg dE_relax: -0.027550 eV | Avg Abs dE_relax: 0.094550 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+BenPer_P1B                | 0.158889        | -0.075400    | -7.2530    | -7.3284    | 0.9179
+BenPer_P2B                | 0.125765        | -0.105000    | -7.0927    | -7.1977    | 0.9875
+BenPer_P3B                | 0.108906        | 0.026100     | -6.7987    | -6.7726    | 0.9737
+BenPer_P4B                | 0.186278        | 0.079600     | -6.7390    | -6.6594    | 0.9798
+BenPer_P5B                | 0.106918        | -0.185900    | -7.2113    | -7.3972    | 0.9959
+BenPer_P6B                | 0.148722        | 0.095300     | -6.8832    | -6.7879    | 0.9762
+
+[B] CirCor - H-1   (Avg RMSD: 0.106347 Å | Avg dE_relax: -0.091060 eV | Avg Abs dE_relax: 0.125100 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirCor_P1B                | 0.122049        | -0.146300    | -6.6645    | -6.8108    | 0.9999
+CirCor_P2B                | 0.108230        | -0.080800    | -6.4401    | -6.5209    | 0.9842
+CirCor_P3B                | 0.100692        | -0.218100    | -6.5257    | -6.7438    | 0.9852
+CirCor_P4B                | 0.115874        | -0.095200    | -6.2888    | -6.3840    | 0.9793
+CirCor_P5B                | 0.084891        | 0.085100     | -6.2810    | -6.1959    | 0.9790
+
+[B] CirCor - H   (Avg RMSD: 0.106347 Å | Avg dE_relax: -0.066380 eV | Avg Abs dE_relax: 0.093340 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirCor_P1B                | 0.122049        | -0.033300    | -6.3476    | -6.3809    | 0.9138
+CirCor_P2B                | 0.108230        | 0.067400     | -5.9617    | -5.8943    | 0.9761
+CirCor_P3B                | 0.100692        | -0.080600    | -6.3872    | -6.4678    | 0.9768
+CirCor_P4B                | 0.115874        | -0.199700    | -6.6378    | -6.8375    | 0.9958
+CirCor_P5B                | 0.084891        | -0.085700    | -6.7439    | -6.8296    | 0.9931
+
+[B] CirOv - H-1   (Avg RMSD: 0.109673 Å | Avg dE_relax: -0.070220 eV | Avg Abs dE_relax: 0.096820 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirOv_P1B                 | 0.112704        | 0.011300     | -6.4763    | -6.4650    | 0.9020
+CirOv_P2B                 | 0.104456        | 0.055200     | -6.2384    | -6.1832    | 0.9822
+CirOv_P3B                 | 0.094590        | -0.109100    | -6.6749    | -6.7840    | 0.9836
+CirOv_P4B                 | 0.103149        | -0.171800    | -6.8137    | -6.9855    | 1.0000
+CirOv_P5B                 | 0.133466        | -0.136700    | -6.8584    | -6.9951    | 0.9989
+
+[B] CirOv - H   (Avg RMSD: 0.109673 Å | Avg dE_relax: -0.107880 eV | Avg Abs dE_relax: 0.127160 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirOv_P1B                 | 0.112704        | -0.179800    | -6.1407    | -6.3205    | 0.9933
+CirOv_P2B                 | 0.104456        | -0.078800    | -5.9709    | -6.0497    | 0.9929
+CirOv_P3B                 | 0.094590        | -0.188500    | -6.0594    | -6.2479    | 0.9947
+CirOv_P4B                 | 0.103149        | -0.140500    | -5.9777    | -6.1182    | 0.9880
+CirOv_P5B                 | 0.133466        | 0.048200     | -5.4426    | -5.3944    | 0.9733
+
+[B] CirOv - L   (Avg RMSD: 0.100732 Å | Avg dE_relax: -0.140467 eV | Avg Abs dE_relax: 0.140467 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+CirOv_P2B                 | 0.104456        | -0.113100    | -1.1632    | -1.2763    | 0.9908
+CirOv_P3B                 | 0.094590        | -0.138800    | -1.2593    | -1.3981    | 0.9958
+CirOv_P4B                 | 0.103149        | -0.169500    | -1.2245    | -1.3940    | 0.9904
+
+[B] Cor - H-1   (Avg RMSD: 0.133789 Å | Avg dE_relax: -0.117200 eV | Avg Abs dE_relax: 0.124533 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+Cor_P1B                   | 0.094333        | 0.011000     | -7.3251    | -7.3141    | 1.0000
+Cor_P2B                   | 0.138814        | -0.336800    | -7.1208    | -7.4576    | 0.9827
+Cor_P3B                   | 0.168220        | -0.025800    | -6.4820    | -6.5078    | 0.9673
+
+[B] Cor - H   (Avg RMSD: 0.133789 Å | Avg dE_relax: -0.049533 eV | Avg Abs dE_relax: 0.210800 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+Cor_P1B                   | 0.094333        | 0.241900     | -6.6812    | -6.4393    | 0.9636
+Cor_P2B                   | 0.138814        | -0.036700    | -6.6952    | -6.7319    | 0.9738
+Cor_P3B                   | 0.168220        | -0.353800    | -7.4027    | -7.7565    | 1.0000
+
+[B] RibPAH - H-1   (Avg RMSD: 0.182381 Å | Avg dE_relax: -0.016167 eV | Avg Abs dE_relax: 0.071700 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+RibPAH_P1B                | 0.216840        | 0.083300     | -7.4331    | -7.3498    | 0.9774
+RibPAH_P3B                | 0.100443        | -0.088800    | -7.3807    | -7.4695    | 0.9886
+RibPAH_P5B                | 0.229861        | -0.043000    | -7.5176    | -7.5606    | 0.9870
+
+[B] RibPAH - H   (Avg RMSD: 0.196603 Å | Avg dE_relax: -0.224360 eV | Avg Abs dE_relax: 0.257520 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+RibPAH_P1B                | 0.216840        | -0.711700    | -5.4963    | -6.2080    | 0.9929
+RibPAH_P2B                | 0.142580        | 0.082900     | -4.8877    | -4.8048    | 0.9838
+RibPAH_P3B                | 0.100443        | -0.351200    | -5.3843    | -5.7355    | 0.9999
+RibPAH_P4B                | 0.293292        | -0.131100    | -4.9422    | -5.0733    | 0.9844
+RibPAH_P5B                | 0.229861        | -0.010700    | -5.0610    | -5.0717    | 0.9846
+
+[B] RibPAH - L   (Avg RMSD: 0.196603 Å | Avg dE_relax: -0.007920 eV | Avg Abs dE_relax: 0.180280 eV)
+Doped_Mol                 | RMSD (x)        | dE_relax (y) | Vert_E     | Adia_E     | Vert_Overlap
+---------------------------------------------------------------------------------------------------
+RibPAH_P1B                | 0.216840        | 0.159900     | -1.8061    | -1.6462    | 0.9852
+RibPAH_P2B                | 0.142580        | 0.271000     | -1.3183    | -1.0473    | 0.9836
+RibPAH_P3B                | 0.100443        | -0.325500    | -1.8521    | -2.1776    | 1.0000
+RibPAH_P4B                | 0.293292        | -0.087500    | -1.3645    | -1.4520    | 0.9834
+RibPAH_P5B                | 0.229861        | -0.057500    | -1.4964    | -1.5539    | 0.9838

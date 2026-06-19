@@ -1,0 +1,17 @@
+! r2SCAN-3C SP
+
+%maxcore 4092
+
+%scf
+   MaxIter 100
+   Convergence VeryTight
+   CNVSOSCF true
+end
+
+%pal
+   nprocs 3
+end
+
+
+
+
